@@ -1,0 +1,28 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> jetbrains/ide ###
+.idea
+###< jetbrains/ide ###
+
+###> mac/file-meta ###
+.DS_Store
+###< mac/file-meta ###
+
+###> symfony/phpunit-bridge ###
+phpunit.xml
+.phpunit.cache
+.phpunit.result.cache
+###< symfony/phpunit-bridge ###
