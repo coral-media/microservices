@@ -1,9 +1,9 @@
 apps:
     demo:
         enabled: true
-        repository: 'git@bitbucket.org:3pixelsmedia/ms-demo.git'
+        repository: 'git@github.com:coral-media/ms-demo.git'
         requires: [ 'security' ]
     security:
         enabled: true
-        repository: 'git@bitbucket.org:3pixelsmedia/ms-security.git'
+        repository: 'git@github.com:coral-media/ms-security.git'
         requires: []
