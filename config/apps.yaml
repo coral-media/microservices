@@ -2,8 +2,10 @@ apps:
     demo:
         enabled: true
         repository: 'git@github.com:coral-media/ms-demo.git'
-        requires: [ 'security' ]
+        requires: [security]
+        namespace: MsDemo
     security:
         enabled: true
         repository: 'git@github.com:coral-media/ms-security.git'
-        requires: []
+        requires: {  }
+        namespace: MsSecurity

@@ -9,6 +9,8 @@
         "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-simplexml": "*",
+        "ext-dom": "*",
         "api-platform/core": "^3.2",
         "doctrine/doctrine-bundle": "^2.11",
         "doctrine/doctrine-migrations-bundle": "^3.3",
@@ -47,16 +49,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Shared\\": "src/",
-            "Security\\": "apps/security/src/",
-            "Demo\\": "apps/demo/src/"
+            "MsShared\\": "src/",
+            "MsSecurity\\": "apps/security/src/",
+            "MsDemo\\": "apps/demo/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Shared\\Tests\\": "tests/",
-            "Security\\Tests\\": "apps/security/tests",
-            "Demo\\Tests\\": "apps/demo/tests/"
+            "MsShared\\Tests\\": "tests/",
+            "MsSecurity\\Tests\\": "apps/security/tests",
+            "MsDemo\\Tests\\": "apps/demo/tests/"
         }
     },
     "replace": {

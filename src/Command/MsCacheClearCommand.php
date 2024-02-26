@@ -1,6 +1,6 @@
 <?php
 
-namespace Shared\Command;
+namespace MsShared\Command;
 
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
